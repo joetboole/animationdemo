@@ -8,9 +8,49 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.joez.animation.MainActivity$PlaceholderFragment" >
 
-    <TextView
+    <LinearLayout 
+        android:id="@+id/ll_controll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button 
+            android:id="@+id/btn_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:text="trans"/>
+        <Button 
+            android:id="@+id/btn_roat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:text="roat"/>
+        <Button 
+            android:id="@+id/btn_aplh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:text="aplh"/>
+        <Button 
+            android:id="@+id/btn_mix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:text="mix"
+            />
+    </LinearLayout>
+    <ImageView 
+        android:id="@+id/iv_target"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_below="@+id/ll_controll"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/community_all_staryellow_small"/>
 
 </RelativeLayout>
