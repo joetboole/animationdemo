@@ -19,29 +19,36 @@
             android:id="@+id/btn_trans"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textSize="18sp"
+            android:layout_margin="3dp"
+            android:textSize="13sp"
             android:text="trans"/>
         <Button 
-            android:id="@+id/btn_roat"
+            android:id="@+id/btn_rota"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textSize="18sp"
-            android:text="roat"/>
+            android:layout_margin="3dp"
+            android:textSize="13sp"
+            android:text="rota"/>
         <Button 
-            android:id="@+id/btn_aplh"
+            android:id="@+id/btn_alph"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textSize="18sp"
-            android:text="aplh"/>
+            android:layout_margin="3dp"
+            android:textSize="13sp"
+            android:text="alpha"/>
+         <Button 
+            android:id="@+id/btn_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textSize="13sp"
+            android:text="scale"/>
         <Button 
             android:id="@+id/btn_mix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textSize="18sp"
+            android:layout_margin="3dp"
+            android:textSize="13sp"
             android:text="mix"
             />
     </LinearLayout>
